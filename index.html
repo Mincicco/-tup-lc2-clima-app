@@ -17,8 +17,8 @@
         <nav>
             <ul>
                 <li class="current-page"><a href="#">Clima</a></li>
-                <li><a href="/add-city.html">Agregar Ciudad</a></li>
-                <li><a href="/help.html">Ayuda</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li><a href="help.html">Ayuda</a></li>
             </ul>
         </nav>
     </header>
@@ -26,11 +26,25 @@
     <main>
     <h2>El clima ahora</h2>
         <section id="form-city-list">
-            <!-- Sección donde se debe colocar el formulario, con el select y el
-            botón de consultar -->
+           <form action="">
+               <select name="selecionarciudad" id="">
+                <option value=""-disabled>Selecionar Ciudad</option>
+                <option value="ROSARIO">Rosario</option>
+                <option value="RAFAELa">Rafaela</option>
+               </select>
+               <input type="button" value="Consultar">
+           </form>
         </section>
         <section id="section-weather-result">
-            <!-- Sección donde se debe mostrar el clima de la ciudad -->
+            <div class="card">
+                <h3>Rosario</h3>
+                <img src="css\img\imagendelclima.png" alt="Imagendelclima">
+                <p>Temperatura: 25.31°</p>
+                <p>Sensacion térmica: 24.65°</p>
+                <p>Humedad: 29%</p>
+                <p>Presion: 1011 P</p>
+                <p>Velocidad del viento: 4.63km/h</p>
+            </div>
         </section>
     </main>
 
