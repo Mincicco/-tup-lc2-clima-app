@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
+ Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+:root {
+    /* Declaro variables CSS con colores principales */
+    --color-theme: #00594c;
+    --color-back-active: #04957d;
+    --color-gradient: linear-gradient(to right, var(--color-theme),
+            var(--color-back-active));
+    --color-active: #5df2d6;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button,
+a {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+header {
+    top: 0;
+    width: 100%;
+    background: var(--color-theme);
+    position: fixed;
+}
+
+nav>ul {
+    justify-content: space-between;
+    justify-content: center;
+    display: flex;
+}
+
+nav li {
+    flex: 0 0 auto;
+}
+
+nav li a {
+    display: block;
+    padding: 16px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    color: var (--color-active);
+}
+
+nav li.current-page a {
+    color: var (--color-theme);
+    background-color: var (--color-active);
+    pointer-events: none;
+}
+
+main {
+    margin-top: 120px;
+    overflow: auto;
+    padding: 16px;
+    padding-bottom: 60px;
+    height: calc (100% - 120px);
+}
+
+h1 {
+    text-align: center;
+    margin:
+        0;
+    color: white;
+}
+
+h1>img {
+    width: 70px;
+    vertical-align: middle;
+}
+
+h2 {
+    color: var (--color-theme);
+    margin: 16px 0;
+    text-align: center;
+}
+
+h3 {
+    color: var (--color-theme);
+    margin: 8px 0;
+}
+
+main section {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background: var (--color-theme);
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: small;
+    color: white;
+}
+
+main p {
+    margin-bottom: 16px;
+}
+
+/* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */
+@media (min-width: 400px) {
+    main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
