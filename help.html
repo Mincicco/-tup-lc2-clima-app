@@ -7,7 +7,7 @@
     <title>Clima App</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
-    <link rel=”stylesheet” href=”css/pages/help.css”>
+    <link rel="stylesheet" href="css/pages/help.css">
 </head>
 
 <body>
@@ -18,14 +18,14 @@
         <nav>
             <ul>
                 <li><a href="index.html">Clima</a></li>
-                <li class="current-page"><a href="#">Agregar Ciudad</a></li>
-                <li><a href="help.html">Ayuda</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="#">Ayuda</a></li>
             </ul>
         </nav>
     </header>
     <!-- Contenido principal de la página -->
     <main>
-    <h2>Agregar Ciudad</h2>
+    <h2>Ayuda Clima App v.1.d</h2>
     <p>
         Esta App te permite consultar el clima de una ciudad en particular
         utilizando API de
@@ -53,17 +53,15 @@
             </label>
           </li>
           <li>
-            <label for=""
-              >Mensaje
-              <textarea name="" id="" cols="30" rows="10"></textarea>
-            </label>
+            <label for="">Mensaje <textarea name="" id="" cols="30" rows="10"></textarea> </label>
           </li>
           <li>
-            <button type="reset">Limpiar</button>
-            <button type="submit">Enviar</button>
+            <button type="reset" class="botones">Limpiar</button>
+            <button type="submit" class="botones">Enviar</button>
           </li>
         </ul>
       </form>
+      <p id="aviso">Ingrese un email valido</p>
     </main>
 
     <footer>

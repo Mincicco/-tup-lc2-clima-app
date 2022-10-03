@@ -1,18 +1,27 @@
+.titulo{
+    color: #00594c;
+}
 select{
-    padding: 10px;
+    padding: 8px;
     border: solid 1px;
     border-radius: 6px;
     font-size: medium;    
+}
+.boton{
+    padding: 8px;
+    background-color:#00594c;
+    border-radius: 6px;
+    color: white;
 }
 
 .card{
     border: 1px solid;
     border-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    box-shadow: 2px 2px 5px  rgba(0, 0, 0, 1);
+    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 1);
     text-align: center;
     padding: 0px 5px ;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 100px;
 }
 

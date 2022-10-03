@@ -1,0 +1,36 @@
+input, label {
+    display:block;
+}
+form{
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 25%;
+    font-weight: bold;
+}
+
+textarea{
+    padding: 10px;
+    margin: 10px;
+    border: solid 1px;
+    border-radius: 6px;
+}
+button{
+    margin: 2px 
+}
+/*Clases*/
+.botones{
+    justify-content: center;
+    padding: 8px;
+    background-color:#00594c;
+    border-radius: 4px;
+    color: white;
+}
+#aviso{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #dc3545;
+    margin: 10px 20%;
+    padding: 15px 10px;
+    border-radius: 20px;;
+}

@@ -1,0 +1,51 @@
+input, label {
+  display:block;
+}
+input {
+  padding: 10px;
+  margin: 10px;
+  border: solid 1px;
+  border-radius: 6px;
+  font-size: medium;
+  }
+.botonAgregar{
+  padding: 8px;
+  background-color:#00594c;
+  border-radius: 6px;
+  color: white;
+}
+#form-city-list {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+} 
+#section-weather-result {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  margin: 50px 20% 0px;
+}
+#success {
+  background-color: #28a745;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+  
+#warning {
+  background-color: #ffc107;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+  
+#error{
+  background-color: #dc3545;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+  
