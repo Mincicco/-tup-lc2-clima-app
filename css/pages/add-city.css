@@ -2,8 +2,11 @@ input, label {
   display:block;
 }
 input {
+  
   padding: 10px;
-  margin: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left:440px;
   border: solid 1px;
   border-radius: 6px;
   font-size: medium;

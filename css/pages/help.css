@@ -1,4 +1,4 @@
-input, label {
+input, label,textarea{
     display:block;
 }
 form{
@@ -14,11 +14,9 @@ textarea{
     border: solid 1px;
     border-radius: 6px;
 }
-button{
-    margin: 2px 
-}
-/*Clases*/
+
 .botones{
+    margin: 3px;
     justify-content: center;
     padding: 8px;
     background-color:#00594c;
