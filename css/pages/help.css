@@ -1,34 +1,47 @@
-input, label,textarea{
-    display:block;
+main p {
+    margin: 0 0 20px;
+    line-height: 1;
 }
-form{
+
+form.form {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0px 25%;
-    font-weight: bold;
 }
 
-textarea{
-    padding: 10px;
-    margin: 10px;
-    border: solid 1px;
+form.form label {
+    margin: 5px 0 0;
+}
+
+form.form input {
+    height: 40px;
+}
+
+form.form textarea,
+input {
     border-radius: 6px;
+    width: 340px;
 }
 
-.botones{
-    margin: 3px;
+div.inputs {
+    display: flex;
     justify-content: center;
-    padding: 8px;
-    background-color:#00594c;
-    border-radius: 4px;
-    color: white;
 }
-#aviso{
-    text-align: center;
+
+.button {
+    border: 0px;
+    background-color: #00594c;
     color: white;
-    font-weight: bold;
-    background-color: #dc3545;
-    margin: 10px 20%;
-    padding: 15px 10px;
-    border-radius: 20px;;
+    border-radius: 8px;
+    padding: 10px;
+    width: fit-content;
+    margin: 10px 3px 0px;
 }
+
+
+/*se realizo para cuando este la pantalla maximizada se vea como el resultado del ejemplo del pdf*/
+
+@media (min-width: 1001px) {
+    main.help {
+        width: 83%;
+        margin-left: 9%;
+    }

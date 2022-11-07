@@ -1,30 +1,42 @@
-.titulo{
-    color: #00594c;
+select#seleccionable {
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 600;
+    height: 35px;
 }
-select{
-    padding: 8px;
-    border: solid 1px;
-    border-radius: 6px;
-    font-size: medium;    
-}
-.boton{
-    padding: 8px;
-    background-color:#00594c;
-    border-radius: 6px;
+
+input.button {
+    border: 0px;
+    background-color: var(--color-theme);
     color: white;
+    border-radius: 8px;
+    height: 35px;
+    font-weight: 600;
+    padding: 5px 10px 5px;
+    margin-left: 10px;
 }
 
-.card{
-    border: 1px solid;
-    border-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    box-shadow: 3px 3px 10px  rgba(0, 0, 0, 1);
-    text-align: center;
-    padding: 0px 5px ;
-    margin-top: 20px;
-    margin-bottom: 100px;
+div#card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px 4px rgb(0 0 0 / 50%);
+    padding: 5px 10px 5px;
 }
 
-#form-city-list{
-    margin-top: 30px;
+#section-weather-result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#card h3 {
+    color: var(--color-theme);
+}
+
+div#card p {
+    font-size: 12px;
+    margin: 2px;
+    font-weight: 700;
 }
